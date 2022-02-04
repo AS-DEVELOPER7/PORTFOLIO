@@ -156,7 +156,7 @@ const Contact = ({ showContact, setShowContact }) => {
           </div>
           <hr className="mt-8 h-[1px]  w-full border-none bg-p4" />
 
-          <div className=" mt-10 flex w-full flex-col items-center space-y-4 space-x-[20%] lg:ml-[2vw] lg:grid lg:grid-cols-3">
+          <div className=" mt-10 flex w-full flex-col items-center gap-4 lg:ml-[2vw] lg:grid lg:grid-cols-3">
             <div className="flex  items-center gap-4">
               <FontAwesomeIcon
                 icon={faMapLocation}
@@ -165,42 +165,41 @@ const Contact = ({ showContact, setShowContact }) => {
               />
               <div className="text-p4">Hathipole,Udaipur,Rajasthan,India</div>
             </div>
-            <div className="   flex w-full space-x-[10%] lg:space-x-[30%]">
-              <div className="flex flex-col gap-4">
-                <div className="flex items-center gap-4">
-                  <FontAwesomeIcon
-                    icon={faPhone}
-                    className=" text-p1"
-                    height={25}
-                  />
-                  <div className="text-p4">+917665212079</div>
-                </div>
-                <div className="flex items-center gap-4">
-                  <FontAwesomeIcon
-                    icon={faPhone}
-                    className=" text-p1"
-                    height={25}
-                  />
-                  <div className="text-p4">+917976236050</div>
-                </div>
+
+            <div className="flex gap-4 lg:ml-8 lg:flex-col">
+              <div className="flex items-center gap-4">
+                <FontAwesomeIcon
+                  icon={faPhone}
+                  className=" text-p1"
+                  height={25}
+                />
+                <div className="text-p4">+917665212079</div>
               </div>
-              <div className="flex flex-col gap-4 ">
-                <div className="flex items-center gap-4">
-                  <FontAwesomeIcon
-                    icon={faPaperPlane}
-                    className=" text-p1"
-                    height={25}
-                  />
-                  <div className="text-p4">alihussainsagir53@gmail.com</div>
-                </div>
-                <div className="flex items-center gap-4">
-                  <FontAwesomeIcon
-                    icon={faPaperPlane}
-                    className=" text-p1"
-                    height={25}
-                  />
-                  <div className="text-p4">alihussainsagir51@gmail.com</div>
-                </div>
+              <div className="flex items-center gap-4">
+                <FontAwesomeIcon
+                  icon={faPhone}
+                  className=" text-p1"
+                  height={25}
+                />
+                <div className="text-p4">+917976236050</div>
+              </div>
+            </div>
+            <div className="flex flex-col gap-4 lg:-ml-12">
+              <div className="flex items-center gap-4">
+                <FontAwesomeIcon
+                  icon={faPaperPlane}
+                  className=" text-p1"
+                  height={25}
+                />
+                <div className="text-p4">alihussainsagir53@gmail.com</div>
+              </div>
+              <div className="flex items-center gap-4">
+                <FontAwesomeIcon
+                  icon={faPaperPlane}
+                  className=" text-p1"
+                  height={25}
+                />
+                <div className="text-p4">alihussainsagir51@gmail.com</div>
               </div>
             </div>
           </div>
