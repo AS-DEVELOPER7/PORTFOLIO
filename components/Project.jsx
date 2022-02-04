@@ -15,6 +15,7 @@ const Project = ({ link, img }) => {
         <a target="_blank" rel="noopener noreferrer">
           <img
             src={img}
+        loading="lazy"
             className="transition-all duration-[6s] ease-in-out hover:-translate-y-full"
           />
         </a>
