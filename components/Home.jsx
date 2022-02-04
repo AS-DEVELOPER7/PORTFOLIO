@@ -21,7 +21,8 @@ const Front = () => {
         }}
       >
         <div className="relative h-36 w-36 overflow-hidden rounded-full shadow-md shadow-slate-600 lg:h-52  lg:w-52 ">
-          <Image src={AS} alt="" layout="fill" />
+          <Image src={AS} alt="" layout="fill"        loading="lazy"
+ />
         </div>
         <div className=" mt-4 font-serif text-2xl font-bold text-p1 lg:text-4xl">
           I'M ALI HUSSAIN SAGIR
