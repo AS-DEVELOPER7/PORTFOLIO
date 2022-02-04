@@ -15,7 +15,7 @@ const Front = () => {
   return (
     <div className="  grid  w-full lg:grid-flow-col ">
       <div
-        className="left flex  h-[70vh]  grid-cols-7 flex-col items-center justify-center bg-black bg-opacity-60 bg-cover bg-no-repeat bg-blend-darken lg:w-[70vw]"
+        className="left flex h-[55vh] lg:h-[70vh]  grid-cols-7 flex-col items-center justify-center bg-black bg-opacity-60 bg-cover bg-no-repeat bg-blend-darken lg:w-[70vw]"
         style={{
           backgroundImage: `url("https://cdn.pixabay.com/photo/2016/02/22/12/34/pen-1215435__340.jpg")`,
         }}
@@ -43,7 +43,7 @@ const Front = () => {
         </div>
       </div>
       <div
-        className="right flex h-[70vh] flex-col items-center justify-center bg-black bg-opacity-60 bg-cover bg-no-repeat py-8 bg-blend-darken lg:w-[30vw]"
+        className="right flex h-[55vh] lg:h-[70vh] flex-col items-center justify-center bg-black bg-opacity-60 bg-cover bg-no-repeat py-8 bg-blend-darken lg:w-[30vw]"
         style={{
           backgroundImage: `url("https://images.pexels.com/photos/3201768/pexels-photo-3201768.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")`,
         }}
