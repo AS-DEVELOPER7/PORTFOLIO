@@ -23,16 +23,16 @@ const Front = () => {
         <div className="relative h-36 w-36 overflow-hidden rounded-full shadow-md shadow-slate-600 lg:h-52  lg:w-52 ">
           <Image src={AS} alt="" layout="fill" />
         </div>
-        <div className="h2 font-serif mt-4 text-2xl font-bold text-p1 lg:text-4xl">
+        <div className=" mt-4 font-serif text-2xl font-bold text-p1 lg:text-4xl">
           I'M ALI HUSSAIN SAGIR
         </div>
-        <div className="h4 text-sm text-p4 lg:text-lg">
+        <div className=" text-md text-p4 lg:text-lg">
           WEB DEVELOPER & PHOTOGRAPHER
         </div>
         <div className="mt-4 flex gap-4">
           <div className="h-8 w-8 cursor-pointer rounded-lg  bg-slate-900 text-center">
             <Link href="https://github.com/AS-DEVELOPER7?tab=repositories">
-              <GitHub className="rounded-full text-p4" />
+              <GitHub className="rounded-full  text-p4 " />
             </Link>
           </div>
           <div className="h-8 w-8 cursor-pointer rounded-lg  bg-p3 text-center  text-white">
@@ -43,12 +43,12 @@ const Front = () => {
         </div>
       </div>
       <div
-        className="right flex h-[70vh] flex-col items-center justify-start bg-black bg-opacity-60 bg-cover bg-no-repeat py-8 bg-blend-darken lg:w-[30vw]"
+        className="right flex h-[70vh] flex-col items-center justify-center bg-black bg-opacity-60 bg-cover bg-no-repeat py-8 bg-blend-darken lg:w-[30vw]"
         style={{
           backgroundImage: `url("https://images.pexels.com/photos/3201768/pexels-photo-3201768.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")`,
         }}
       >
-        <h2 className="text-4xl font-bold text-p2 font-serif">
+        <h2 className="font-serif text-4xl font-bold text-p2">
           ABOUT <span className="text-3xl text-p1">ME</span>
         </h2>
         <div
@@ -60,10 +60,12 @@ const Front = () => {
               <Code />
             </div>
             <div className="flex flex-col">
-              <h1 className="text-xl font-semibold tracking-widest text-p1 lg:text-2xl font-serif">
+              <h1 className="font-serif  font-semibold tracking-widest text-p1 text-2xl">
                 WEB DEVELOPER
               </h1>
-              <p className="tracking-wider text-sm  text-p4">FRONT-END DEVELOPER</p>
+              <p className="text-sm tracking-wider  text-p4">
+                FRONT-END DEVELOPER
+              </p>
             </div>
           </div>
           <div className="flex gap-4 ">
@@ -71,10 +73,12 @@ const Front = () => {
               <Camera />
             </div>
             <div className="flex flex-col">
-              <h1 className="text-xl font-serif font-semibold tracking-widest text-p1 lg:text-2xl">
+              <h1 className="font-serif text-2xl font-semibold tracking-widest text-p1">
                 PHOTOGRAPHY
               </h1>
-              <p className="text-sm tracking-wider text-p4">LANDSCAPE PHOTOGRAPHER</p>
+              <p className="text-sm tracking-wider text-p4">
+                LANDSCAPE PHOTOGRAPHER
+              </p>
             </div>
           </div>
         </div>
