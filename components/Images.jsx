@@ -4,6 +4,7 @@ const Images = ({ img }) => {
     <div className="flex items-center ">
       <img
         src={img}
+        loading="lazy"
         srl_gallery_image="true"
         className="cursor-pointer rounded-lg shadow-lg "
       />
