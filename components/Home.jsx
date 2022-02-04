@@ -30,12 +30,12 @@ const Front = () => {
           WEB DEVELOPER & PHOTOGRAPHER
         </div>
         <div className="mt-4 flex gap-4">
-          <div className="h-8 w-8 cursor-pointer rounded-lg  bg-slate-900 text-center">
+          <div className="h-8 w-8 cursor-pointer rounded-lg  bg-slate-900  flex items-center justify-center">
             <Link href="https://github.com/AS-DEVELOPER7?tab=repositories">
               <GitHub className="rounded-full  text-p4 " />
             </Link>
           </div>
-          <div className="h-8 w-8 cursor-pointer rounded-lg  bg-p3 text-center  text-white">
+          <div className="h-8 w-8 cursor-pointer rounded-lg  bg-p3  flex items-center justify-center text-white">
             <Link href="https://www.instagram.com/a_sagir77/?utm_medium=copy_link">
               <Instagram />
             </Link>
