@@ -47,7 +47,7 @@ export const skills = [
   {
     id: '10',
     per: '90',
-    name: 'ADOBE-LIGHTROOM',
+    name: 'LIGHTROOM',
   },
 ]
 export const ProjectData = [
