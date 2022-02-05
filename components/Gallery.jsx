@@ -34,6 +34,18 @@ const Gallery = ({ showGallery, setShowGallery, Idata }) => {
       thumbnailsSize: ['100px', '80px'],
     },
   }
+  function shuffleArray(array) {
+    let i = array.length - 1
+    for (; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1))
+      const temp = array[i]
+      array[i] = array[j]
+      array[j] = temp
+    }
+    return array
+  }
+
+  const shuffledPosts = shuffleArray(Idata)
   return (
     <div>
       <Modal
@@ -74,8 +86,8 @@ const Gallery = ({ showGallery, setShowGallery, Idata }) => {
         </div>
         <div className="">
           <SRLWrapper options={options}>
-            <div className=" mt-8 grid space-x-4 space-y-4 md:grid-cols-2 lg:grid-cols-3 ">
-              {Idata.map((data) => (
+            <div className=" mt-8 space-x-4 space-y-4 md:columns-2 lg:columns-3  ">
+              {shuffledPosts.map((data) => (
                 <Images key={data.id} img={data.img} />
               ))}
             </div>
