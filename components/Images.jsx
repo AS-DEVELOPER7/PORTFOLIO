@@ -1,12 +1,12 @@
 import React from 'react'
 const Images = ({ img }) => {
   return (
-    <div className="flex items-center ">
+    <div className="">
       <img
         src={img}
         loading="lazy"
         srl_gallery_image="true"
-        className="cursor-pointer rounded-lg shadow-lg "
+        className="cursor-pointer rounded-lg  shadow-lg "
       />
     </div>
   )
